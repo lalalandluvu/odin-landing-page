@@ -54,7 +54,9 @@ body {
 .information {
     display:flex;
     flex-direction: column;
-    height:200px;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 40px;
 }
 
 .information .header {
@@ -78,7 +80,7 @@ body {
 }
 
 .image {
-    padding: 40px;
+    padding: 80px;
     border: 3px solid #3882F6;
     border-radius:5px;
 }
@@ -91,6 +93,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    margin: 0;
 }
 
 .quote-text {
@@ -106,14 +109,15 @@ body {
 
 .call-to-action {
     display:flex;
-    padding: 40px;
+    padding: 30px;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .box {
     background-color:#3882F6;
-    padding: 60px;
+    padding: 20px;
     border-radius: 10px;
     display:flex;
     align-items: center;
@@ -121,7 +125,7 @@ body {
 }
 
 .command {
-    font-size:30px;
+    font-size:20px;
     color:#F9FAF8;
 }
 
@@ -136,8 +140,10 @@ body {
 }
 
 .footer {
-    background-color: #1F2937;
+    background-color: #1F2937; 
     display:flex;
+    flex:1;
+    padding: 10px;
     align-items:center;
     justify-content: center;
 }
