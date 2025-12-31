@@ -10,12 +10,12 @@ body {
     color:#F9FAF8;
     display:flex;
     flex-direction: column;
-    height:300px;
+    height:200px;
     padding: 10px 60px 20px 60px;
     margin:0;
 }
 
-.header {
+.hero .header {
     display:flex;
     justify-content: space-between;
     margin-bottom:40px;
@@ -48,7 +48,39 @@ body {
     background-color: darkgray;
     align-items:center;
     justify-content:center;
-    padding:80px;
+    padding:40px;
+}
+
+.information {
+    display:flex;
+    flex-direction: column;
+    height:200px;
+}
+
+.information .header {
+    margin:15px auto;
+    font-size:36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap: 40px;
+}
+
+.info-box {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image {
+    padding: 40px;
+    border: 3px solid #3882F6;
+    border-radius:5px;
 }
 
 .main {
@@ -68,6 +100,7 @@ button {
     color:#F9FAF8;
     border-radius: 5px;
     border: none;
+    cursor:pointer;
 }
 
 a {
